@@ -1,8 +1,8 @@
 {
     "name": "@rivetkit/fast-json-patch",
-    "version": "3.1.1",
+    "version": "3.1.2",
     "description": "Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities",
-    "homepage": "https://github.com/Starcounter-Jack/JSON-Patch",
+    "homepage": "https://github.com/rivet-gg/JSON-Patch",
     "keywords": [
         "json",
         "patch",
@@ -11,10 +11,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/Starcounter-Jack/JSON-Patch.git"
+        "url": "git://github.com/rivet-gg/JSON-Patch.git"
     },
     "bugs": {
-        "url": "https://github.com/Starcounter-Jack/JSON-Patch/issues"
+        "url": "https://github.com/rivet-gg/JSON-Patch/issues"
     },
     "author": {
         "name": "Joachim Wester",
