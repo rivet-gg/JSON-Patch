@@ -1,5 +1,5 @@
 {
-    "name": "fast-json-patch",
+    "name": "@rivetkit/fast-json-patch",
     "version": "3.1.1",
     "description": "Fast implementation of JSON-Patch (RFC-6902) with duplex (observe changes) capabilities",
     "homepage": "https://github.com/Starcounter-Jack/JSON-Patch",
@@ -25,6 +25,13 @@
     "main": "index.js",
     "module": "index.mjs",
     "typings": "index.d.ts",
+    "exports": {
+        ".": {
+            "import": "./index.mjs",
+            "require": "./index.js",
+            "types": "./index.d.ts"
+        }
+    },
     "devDependencies": {
         "benchmark": "^2.1.4",
         "bluebird": "^3.5.5",
